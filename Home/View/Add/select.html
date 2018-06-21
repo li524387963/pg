@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>select</title>
+	<!--<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4/jquery.min.js"></script>-->
+	<!---->
+	<!--&lt;!&ndash; 新 Bootstrap 核心 CSS 文件 &ndash;&gt;-->
+	<!--&lt;!&ndash;<link rel="stylesheet" href="<%$smarty.const.ABOOT_URL%>css/bootstrapone.css">&ndash;&gt;-->
+	<!--<link rel="stylesheet" href="<%$smarty.const.ABOOT_URL%>css/bootstrap.css">-->
+	<!--&lt;!&ndash; 最新的 Bootstrap 核心 JavaScript 文件 &ndash;&gt;-->
+	<!--<script src="<%$smarty.const.ABOOT_URL%>js/bootstrap.min.js"></script>-->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.css?v=01.01.05">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css?v=01.01.04">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.04">
+
+</head>
+<body>
+
+<div class="weui-tab">
+  <div class="weui-tab__bd">
+  <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">
+  <form class="form-horizontal" name="f1" id="form1"    action=""   method="post" >
+    <div class="weui-cells weui-cells_form" >
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">设备ID</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="devid"  placeholder="请输入设备ID号" id="devid">
+        </div>
+      </div>
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">栅</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="shed"  placeholder="请输入多少栅" id="shed">
+        </div>
+      </div>
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">栏</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="column"  placeholder="请输入多少栏" id="column">
+        </div>
+      </div>
+    </div>
+    <div class="weui-btn-area">
+      <button class="weui-btn weui-btn_primary" type="submit">查询</button>
+    </div>
+  </form>
+    <%if !empty($selectSql)%>
+
+    <div class="weui-panel weui-panel_access">
+      <div class="weui-panel__bd">
+        <%foreach $selectSql as $value%>
+        <a href="<%$smarty.const.__APP__%>/Acadd/select?devid=<%$value['devid']%>&flag=<%$value['flag']%>" class="weui-media-box weui-media-box_appmsg">
+          <div class="weui-media-box__hd">
+            <%if ($value['state'])==1%>
+            <img  class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/warn.png" alt="" id="flag_img">
+            <%/if%>
+            <%if ($value['state'])==2%>
+            <img  class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/warn1.png" alt="" >
+            <%/if%>
+            <%if ($value['state'])==3%>
+            <img  class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/warn2.png" alt="" >
+            <%/if%>
+          </div>
+          <div class="weui-media-box__bd">
+            <h4 class="weui-media-box__title">
+              设备号 <%$value['devid']%>
+              <span class="weui-media-box__title-after">棚 <%$value['shed']%>  栅<%$value['column']%></span>
+            </h4>
+            <p class="weui-media-box__desc">时间 <%$value['time']%></p>
+          </div>
+        </a>
+        <%/foreach%>
+        <div class="weui-panel weui-panel_access">
+          <a  class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+              <img class="weui-media-box__thumb"  alt="">
+            </div>
+            <div class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">
+
+                <span class="weui-media-box__title-after"> </span>
+              </h4>
+              <p class="weui-media-box__desc"> </p>
+            </div>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+
+    <%/if%>
+  </div>
+ </div>
+  </div>
+
+
+<div class="weui-tabbar">
+  <a href="<%$smarty.const.__APP__%>/devselect/select" class="weui-tabbar__item ">
+
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_button.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">首页</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/add/deviceTab" class="weui-tabbar__item weui-bar__item--on">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_msg.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">设备</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/acadd/acTab" class="weui-tabbar__item">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_article.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">温度</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/acadd/mineTab" class="weui-tabbar__item">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">我的</p>
+  </a>
+</div>
+
+</body>
+<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
+<script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
+<script src="<%$smarty.const.AJS_URL%>fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+        // alert('{$devid}');
+    });
+
+    $(document).ready(function() {
+
+
+        var devid = "<%$devid%>";
+        var shed = "<%$shed%>";
+        var column = "<%$column%>";
+        var ret = '<%$ret%>';
+
+        document.getElementById("devid").value=devid;
+        document.getElementById("shed").value=shed;
+        document.getElementById("column").value=column;
+        if (ret=="20000001"){
+            $.toptip('暂无查询数据');
+        }
+
+
+        // var src = location.href
+        // var params = src.split('?');
+        // if(params[1]) {
+        //     var idparams = params[1].split('=');
+        // }
+        // console.log(src,idparams[2],date);
+        // document.getElementById("name").value=name;
+
+
+    });
+
+
+</script>
+</html>

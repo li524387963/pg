@@ -1,0 +1,25 @@
+[ 2018-06-13T09:58:25+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=127&date=2018-06-05
+ERR: syntax error, unexpected 'data' (T_STRING), expecting ')'
+
+[ 2018-06-13T09:58:28+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=127&date=2018-06-03
+ERR: syntax error, unexpected 'data' (T_STRING), expecting ')'
+
+[ 2018-06-13T09:58:56+08:00 ] ::1 /pg/index.php/value/calendar?devid=2
+ERR: syntax error, unexpected 'data' (T_STRING), expecting ')'
+
+[ 2018-06-13T10:43:23+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=2&date=2018-04-23
+ERR: syntax error, unexpected 'count' (T_STRING)
+
+[ 2018-06-13T10:43:37+08:00 ] ::1 /pg/index.php/value/calendar?devid=127
+ERR: syntax error, unexpected 'for' (T_FOR), expecting ',' or ';'
+
+[ 2018-06-13T10:43:44+08:00 ] ::1 /pg/index.php/value/calendar?devid=127
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-06-13T10:52:12+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=127&date=2018-06-04
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2018-06-13T13:22:29+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=127&date=2018-06-01
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Value\todayValue.html"  on line 68 "'' +"  - Unexpected "' +
+            '", expected one of: "%>" , " "
+

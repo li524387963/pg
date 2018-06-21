@@ -1,0 +1,15 @@
+[ 2018-05-25T10:18:36+08:00 ] 172.28.32.152 /pg/index.php/acadd/acTab
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html"  on line 125 "&lt;script src=&quot;&lt;%$smarty.con  st.AJS_URL%&gt;jquery-2.1.4.js&quot;&gt;&lt;/script&gt;" $smarty.con is invalid
+
+[ 2018-05-25T10:20:46+08:00 ] 172.28.32.152 /pg/index.php/acadd/acTab
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html"  on line 125 "&lt;script src=&quot;&lt;%$smarty.con  st.AJS_URL%&gt;jquery-2.1.4.js&quot;&gt;&lt;/script&gt;" $smarty.con is invalid
+
+[ 2018-05-25T10:20:50+08:00 ] 172.28.32.152 /pg/index.php/Acadd/acTab
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html"  on line 125 "&lt;script src=&quot;&lt;%$smarty.con  st.AJS_URL%&gt;jquery-2.1.4.js&quot;&gt;&lt;/script&gt;" $smarty.con is invalid
+
+[ 2018-05-25T10:21:01+08:00 ] 172.28.32.152 /pg/index.php/Acadd/acTab
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html"  on line 125 "&lt;script src=&quot;&lt;%$smarty.con  st.AJS_URL%&gt;jquery-2.1.4.js&quot;&gt;&lt;/script&gt;" $smarty.con is invalid
+
+[ 2018-05-25T10:23:55+08:00 ] ::1 /pg/index.php/Acadd/acTab
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html"  on line 125 "&lt;script src=&quot;&lt;%$smarty.con  st.AJS_URL%&gt;jquery-2.1.4.js&quot;&gt;&lt;/script&gt;" $smarty.con is invalid
+

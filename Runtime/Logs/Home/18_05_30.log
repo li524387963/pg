@@ -1,0 +1,12 @@
+[ 2018-05-30T11:51:12+08:00 ] ::1 /pg/index.php/add/bdadd.html
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2018-05-30T11:55:05+08:00 ] ::1 /pg/index.php/add/bdadd.html
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2018-05-30T13:54:51+08:00 ] ::1 /pg/index.php/add/bdadd.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'id'
+
+[ 2018-05-30T14:19:57+08:00 ] ::1 /pg/index.php/add/bdselect
+ERR: syntax error, unexpected '$uptime' (T_VARIABLE)
+

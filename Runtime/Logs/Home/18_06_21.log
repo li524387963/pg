@@ -1,0 +1,3 @@
+[ 2018-06-21T16:09:10+08:00 ] ::1 /pg/index.php/Acadd/select?devid=105&flag=1
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Acadd\select.html"  on line 174 "&lt;p class=&quot;weui-media-box__desc&quot;&gt;时间 &lt;%$v.time|date=&quot;Y-m-d H:i:s&quot;,###%&gt;&lt;/p&gt;"  - Unexpected "=", expected one of: "%>" , " "
+

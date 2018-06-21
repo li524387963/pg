@@ -1,0 +1,3 @@
+[ 2018-06-20T14:29:19+08:00 ] ::1 /pg/index.php/Value/monthValue?devid=6&date=2018-06
+ERR: syntax error, unexpected 'month' (T_STRING), expecting ',' or ')'
+

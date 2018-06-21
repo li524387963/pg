@@ -1,0 +1,27 @@
+[ 2018-05-04T10:25:06+08:00 ] ::1 /base/index.php/lib/jquery-2.1.4.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-05-04T10:25:06+08:00 ] ::1 /base/index.php/js/jquery-weui.js
+ERR: 无法加载控制器:Js
+
+[ 2018-05-04T10:25:06+08:00 ] ::1 /base/index.php/lib/fastclick.js
+ERR: 无法加载控制器:Lib
+
+[ 2018-05-04T10:25:06+08:00 ] ::1 /base/index.php/js/jquery-weui.js
+ERR: 无法加载控制器:Js
+
+[ 2018-05-04T14:00:17+08:00 ] ::1 /base/index.php/acadd/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Acadd\select.html"  on line 120 "设备号 &lt;%$v.devid%%&gt;"  - Unexpected "%>"
+
+[ 2018-05-04T14:00:20+08:00 ] ::1 /base/index.php/acadd/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Acadd\select.html"  on line 120 "设备号 &lt;%$v.devid%%&gt;"  - Unexpected "%>"
+
+[ 2018-05-04T14:01:12+08:00 ] ::1 /base/index.php/acadd/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Acadd\select.html"  on line 120 "设备号 &lt;%$v.devid%%&gt;"  - Unexpected "%>"
+
+[ 2018-05-04T14:01:13+08:00 ] ::1 /base/index.php/acadd/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Acadd\select.html"  on line 120 "设备号 &lt;%$v.devid%%&gt;"  - Unexpected "%>"
+
+[ 2018-05-04T14:01:15+08:00 ] ::1 /base/index.php/acadd/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Acadd\select.html"  on line 120 "设备号 &lt;%$v.devid%%&gt;"  - Unexpected "%>"
+

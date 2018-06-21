@@ -1,0 +1,48 @@
+[ 2018-04-28T15:43:18+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 139 "&lt;/div&gt;" unclosed {foreach} tag
+
+[ 2018-04-28T15:43:34+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 138 "&lt;%/if%&gt;" unexpected closing tag
+
+[ 2018-04-28T15:44:04+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 139 "&lt;%/if%&gt;" unexpected closing tag
+
+[ 2018-04-28T15:46:26+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 139 "&lt;%/if%&gt;" unexpected closing tag
+
+[ 2018-04-28T15:53:51+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;%/if%&gt;" unexpected closing tag
+
+[ 2018-04-28T15:54:42+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:54:57+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:55:00+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:55:03+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:55:08+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:55:12+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 140 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:57:07+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 141 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:57:08+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 141 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:57:08+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 141 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T15:57:22+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 141 "&lt;!--&lt;%/if%&gt;--&gt;" unexpected closing tag
+
+[ 2018-04-28T16:05:15+08:00 ] ::1 /base/index.php/add/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Add\select.html"  on line 123 "&lt;%/if%&gt;" unclosed {if} tag
+

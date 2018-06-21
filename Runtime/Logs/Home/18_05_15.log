@@ -1,0 +1,78 @@
+[ 2018-05-15T14:15:34+08:00 ] ::1 /base/index.php/devselect/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Devselect\select.html"  on line 134 "&lt;div class=&quot;weui-panel weui-panel_access&quot;&gt;" unclosed {if} tag
+
+[ 2018-05-15T14:16:28+08:00 ] ::1 /base/index.php/devselect/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Devselect\select.html"  on line 135 "&lt;div class=&quot;weui-panel weui-panel_access&quot;&gt;" unclosed {if} tag
+
+[ 2018-05-15T14:16:29+08:00 ] ::1 /base/index.php/devselect/select
+ERR: Syntax Error in template "F:/Apache24/htdocs/base/Home/View\Devselect\select.html"  on line 135 "&lt;div class=&quot;weui-panel weui-panel_access&quot;&gt;" unclosed {if} tag
+
+[ 2018-05-15T15:47:39+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:50:09+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:53:46+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:53:56+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:53:57+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:53:57+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T15:59:29+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:30+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:30+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:32+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:34+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:40+08:00 ] ::1 /base/index.php/Acadd/acTab
+ERR: syntax error, unexpected '$end_time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T15:59:59+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T16:00:45+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0 and time <= 88370 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:23:32+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: syntax error, unexpected '$time' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-05-15T17:23:40+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:23:44+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:24:21+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:24:55+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:24:56+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:25:00+08:00 ] ::1 /base/index.php/Acadd/select
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T17:25:07+08:00 ] ::1 /base/index.php/Acadd/select?devid=5
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time <= 86399 ) ORDER BY id desc' at line 1
+
+[ 2018-05-15T19:04:39+08:00 ] 172.28.32.63 /base/index.php/login
+ERR: 无法加载控制器:Login
+

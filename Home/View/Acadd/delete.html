@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>delete</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.min.css">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.04">
+</head>
+<body>
+
+  <div class="weui-tab">
+    <div class="weui-tab__bd">
+      <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">
+
+  <form class="form-horizontal" name="f1"     action=""   method="post" >
+    <div class="weui-cells weui-cells_form" >
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">设备ID</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="devid"  placeholder="请输入设备ID号">
+        </div>
+      </div>
+    </div>
+    <div class="weui-btn-area">
+      <button class="weui-btn weui-btn_primary" type="submit">删除</button>
+    </div>
+  </form>
+</div>
+    </div>
+    <div class="weui-tabbar">
+  <a href="<%$smarty.const.__APP__%>/devselect/select" class="weui-tabbar__item ">
+
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_button.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">首页</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/add/deviceTab" class="weui-tabbar__item ">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_msg.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">设备</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/acadd/acTab" class="weui-tabbar__item weui-bar__item--on">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_article.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">温度</p>
+  </a>
+  <a href="<%$smarty.const.__APP__%>/acadd/mineTab" class="weui-tabbar__item">
+    <div class="weui-tabbar__icon">
+      <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
+    </div>
+    <p class="weui-tabbar__label">我的</p>
+  </a>
+</div>
+  </div>
+<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
+<script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
+<script src="<%$smarty.const.AJS_URL%>fastclick.js?v=01.01.04"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+</body>
+</html>

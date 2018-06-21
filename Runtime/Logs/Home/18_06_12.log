@@ -1,0 +1,12 @@
+[ 2018-06-12T17:06:16+08:00 ] ::1 /pg/index.php/Value/todayValue
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+
+[ 2018-06-12T17:18:17+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=3&date=2018-05-07
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-06-12T17:18:19+08:00 ] ::1 /pg/index.php/value/calendar?devid=3
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';'
+
+[ 2018-06-12T17:26:08+08:00 ] ::1 /pg/index.php/Value/todayValue?devid=6&date=2018-06-03
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+

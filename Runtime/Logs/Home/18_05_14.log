@@ -1,0 +1,12 @@
+[ 2018-05-14T15:13:10+08:00 ] ::1 /base/index.php/add/add
+ERR: Too few arguments to function Think\Controller::show(), 0 passed in F:\Apache24\htdocs\base\Home\Controller\AddController.class.php on line 54 and at least 1 expected
+
+[ 2018-05-14T15:13:14+08:00 ] ::1 /base/index.php/add/add
+ERR: Too few arguments to function Think\Controller::show(), 0 passed in F:\Apache24\htdocs\base\Home\Controller\AddController.class.php on line 54 and at least 1 expected
+
+[ 2018-05-14T16:17:55+08:00 ] ::1 /base/index.php/add/move
+ERR: Too few arguments to function Think\Controller::show(), 0 passed in F:\Apache24\htdocs\base\Home\Controller\AddController.class.php on line 174 and at least 1 expected
+
+[ 2018-05-14T16:30:10+08:00 ] ::1 /base/index.php/add/move
+ERR: Call to undefined function Home\Controller\back()
+

@@ -1,0 +1,1563 @@
+[ 2018-06-07T10:28:55+08:00 ] ::1 /pg/index.php/value/calendar?devid=127
+ERR: Call to undefined function Home\Controller\push()
+
+[ 2018-06-07T11:17:45+08:00 ] ::1 /pg/index.php/value/temp.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T11:20:48+08:00 ] ::1 /pg/index.php/value/temp.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T11:23:53+08:00 ] ::1 /pg/index.php/value/temp.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T11:24:41+08:00 ] ::1 /pg/index.php/value/temp.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T11:25:10+08:00 ] ::1 /pg/index.php/value/temp.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T11:25:31+08:00 ] ::1 /pg/index.php/value/temp
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and time BETWEEN 1528300800 AND 1528304400 ) LIMIT 0,1' at line 1
+
+[ 2018-06-07T15:52:18+08:00 ] ::1 /pg/index.php/value/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ValueController.class
+
+[ 2018-06-07T15:52:41+08:00 ] ::1 /pg/index.php/value/ValueController.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:ValueController
+
+[ 2018-06-07T15:53:17+08:00 ] ::1 /pg/index.php/ValueController.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:ValueController
+
+[ 2018-06-07T15:54:14+08:00 ] ::1 /pg/index.php/Home/ValueController.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:ValueController
+
+[ 2018-06-07T15:54:37+08:00 ] ::1 /pg/index.php/value/'/pg/Home/Controller//ValueController.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:'
+
+[ 2018-06-07T16:04:13+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T16:04:18+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T16:04:54+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:05:45+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:06:39+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:08:04+08:00 ] ::1 /pg/index.php/value/%7B:U(/pg/Home/Controller/ValueController.class.php)%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:19:04+08:00 ] ::1 /pg/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:19:34+08:00 ] ::1 /pg/index.php/ValueController
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:ValueController
+
+[ 2018-06-07T16:20:26+08:00 ] ::1 /pg/index.php/Home/Controller/ValueController
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Controller
+
+[ 2018-06-07T16:20:41+08:00 ] ::1 /pg/index.php/Home/Controller/ValueController.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Controller
+
+[ 2018-06-07T16:20:51+08:00 ] ::1 /pg/index.php/Home/Controller/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Controller
+
+[ 2018-06-07T16:21:47+08:00 ] ::1 /pg/index.php/value/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ValueController.class
+
+[ 2018-06-07T16:22:16+08:00 ] ::1 /pg/index.php/Controller/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Controller
+
+[ 2018-06-07T16:22:27+08:00 ] ::1 /pg/index.php/value/Controller/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Controller
+
+[ 2018-06-07T16:22:57+08:00 ] ::1 /pg/index.php/Home/Controller/ValueController.class.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Controller
+
+[ 2018-06-07T16:27:59+08:00 ] ::1 /pg/index.php/value/calendar?devid=3
+ERR: Syntax Error in template "F:/Apache24/htdocs/pg/Home/View\Value\calendar.html"  on line 87 "var ret = '&lt;%date%&gt;';" unknown tag "date"
+
+[ 2018-06-07T16:49:07+08:00 ] ::1 /pg/index.php/value/index?devid=2
+ERR: 非法操作:index
+
+[ 2018-06-07T16:50:14+08:00 ] ::1 /pg/index.php/value/index?devid=2
+ERR: 非法操作:index
+
+[ 2018-06-07T16:57:45+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T16:58:16+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T16:58:19+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:58:21+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T16:59:01+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-07T16:59:03+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:01:51+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:01:53+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:02:17+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:12:58+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:13:03+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:13:31+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:14:26+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:20:43+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:21:00+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:23:22+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:24:00+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:25:52+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527782400 AND 1527868799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527868800 AND 1527955199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527955200 AND 1528041599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528041600 AND 1528127999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528128000 AND 1528214399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528214400 AND 1528300799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528300800 AND 1528387199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528387200 AND 1528473599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528473600 AND 1528559999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528560000 AND 1528646399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528646400 AND 1528732799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528732800 AND 1528819199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528819200 AND 1528905599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528905600 AND 1528991999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1528992000 AND 1529078399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529078400 AND 1529164799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529164800 AND 1529251199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529251200 AND 1529337599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529337600 AND 1529423999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529424000 AND 1529510399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529510400 AND 1529596799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529596800 AND 1529683199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529683200 AND 1529769599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529769600 AND 1529855999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529856000 AND 1529942399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1529942400 AND 1530028799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530028800 AND 1530115199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530115200 AND 1530201599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530201600 AND 1530287999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1530288000 AND 1530374399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-07T17:27:33+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525104000 AND 1525190399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525190400 AND 1525276799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525276800 AND 1525363199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525363200 AND 1525449599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525449600 AND 1525535999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525536000 AND 1525622399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525622400 AND 1525708799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525708800 AND 1525795199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525795200 AND 1525881599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525881600 AND 1525967999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525968000 AND 1526054399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526054400 AND 1526140799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526140800 AND 1526227199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526227200 AND 1526313599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526313600 AND 1526399999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400000 AND 1526486399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526486400 AND 1526572799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526572800 AND 1526659199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526659200 AND 1526745599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526745600 AND 1526831999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526832000 AND 1526918399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526918400 AND 1527004799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527004800 AND 1527091199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527091200 AND 1527177599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527177600 AND 1527263999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527264000 AND 1527350399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527350400 AND 1527436799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527436800 AND 1527523199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527523200 AND 1527609599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527609600 AND 1527695999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527696000 AND 1527782399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:27:35+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522512000 AND 1522598399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522598400 AND 1522684799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522684800 AND 1522771199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522771200 AND 1522857599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522857600 AND 1522943999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522944000 AND 1523030399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523030400 AND 1523116799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523116800 AND 1523203199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523203200 AND 1523289599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523289600 AND 1523375999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523376000 AND 1523462399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523462400 AND 1523548799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523548800 AND 1523635199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523635200 AND 1523721599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523721600 AND 1523807999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523808000 AND 1523894399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523894400 AND 1523980799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523980800 AND 1524067199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524067200 AND 1524153599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524153600 AND 1524239999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524240000 AND 1524326399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524326400 AND 1524412799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524412800 AND 1524499199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524499200 AND 1524585599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524585600 AND 1524671999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524672000 AND 1524758399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524758400 AND 1524844799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524844800 AND 1524931199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524931200 AND 1525017599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525017600 AND 1525103999 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:27:42+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1519833600 AND 1519919999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1519920000 AND 1520006399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520006400 AND 1520092799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520092800 AND 1520179199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520179200 AND 1520265599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520265600 AND 1520351999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520352000 AND 1520438399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520438400 AND 1520524799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520524800 AND 1520611199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520611200 AND 1520697599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520697600 AND 1520783999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520784000 AND 1520870399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520870400 AND 1520956799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1520956800 AND 1521043199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521043200 AND 1521129599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521129600 AND 1521215999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521216000 AND 1521302399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521302400 AND 1521388799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521388800 AND 1521475199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521475200 AND 1521561599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521561600 AND 1521647999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521648000 AND 1521734399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521734400 AND 1521820799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521820800 AND 1521907199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521907200 AND 1521993599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1521993600 AND 1522079999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522080000 AND 1522166399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522166400 AND 1522252799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522252800 AND 1522339199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522339200 AND 1522425599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522425600 AND 1522511999 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:40:12+08:00 ] ::1 /pg/index.php/value/calendar?postDate=2018-05-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525104000 AND 1525190399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525190400 AND 1525276799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525276800 AND 1525363199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525363200 AND 1525449599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525449600 AND 1525535999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525536000 AND 1525622399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525622400 AND 1525708799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525708800 AND 1525795199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525795200 AND 1525881599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525881600 AND 1525967999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525968000 AND 1526054399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526054400 AND 1526140799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526140800 AND 1526227199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526227200 AND 1526313599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526313600 AND 1526399999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400000 AND 1526486399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526486400 AND 1526572799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526572800 AND 1526659199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526659200 AND 1526745599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526745600 AND 1526831999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526832000 AND 1526918399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526918400 AND 1527004799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527004800 AND 1527091199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527091200 AND 1527177599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527177600 AND 1527263999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527264000 AND 1527350399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527350400 AND 1527436799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527436800 AND 1527523199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527523200 AND 1527609599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527609600 AND 1527695999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527696000 AND 1527782399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:40:45+08:00 ] ::1 /pg/index.php/value/calendar?postDate=2018-04-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522512000 AND 1522598399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522598400 AND 1522684799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522684800 AND 1522771199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522771200 AND 1522857599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522857600 AND 1522943999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522944000 AND 1523030399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523030400 AND 1523116799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523116800 AND 1523203199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523203200 AND 1523289599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523289600 AND 1523375999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523376000 AND 1523462399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523462400 AND 1523548799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523548800 AND 1523635199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523635200 AND 1523721599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523721600 AND 1523807999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523808000 AND 1523894399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523894400 AND 1523980799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523980800 AND 1524067199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524067200 AND 1524153599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524153600 AND 1524239999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524240000 AND 1524326399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524326400 AND 1524412799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524412800 AND 1524499199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524499200 AND 1524585599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524585600 AND 1524671999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524672000 AND 1524758399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524758400 AND 1524844799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524844800 AND 1524931199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524931200 AND 1525017599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525017600 AND 1525103999 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:41:18+08:00 ] ::1 /pg/index.php/value/calendar?postDate=2018-05-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525104000 AND 1525190399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525190400 AND 1525276799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525276800 AND 1525363199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525363200 AND 1525449599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525449600 AND 1525535999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525536000 AND 1525622399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525622400 AND 1525708799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525708800 AND 1525795199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525795200 AND 1525881599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525881600 AND 1525967999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525968000 AND 1526054399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526054400 AND 1526140799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526140800 AND 1526227199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526227200 AND 1526313599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526313600 AND 1526399999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400000 AND 1526486399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526486400 AND 1526572799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526572800 AND 1526659199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526659200 AND 1526745599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526745600 AND 1526831999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526832000 AND 1526918399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526918400 AND 1527004799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527004800 AND 1527091199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527091200 AND 1527177599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527177600 AND 1527263999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527264000 AND 1527350399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527350400 AND 1527436799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527436800 AND 1527523199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527523200 AND 1527609599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527609600 AND 1527695999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527696000 AND 1527782399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:42:01+08:00 ] ::1 /pg/index.php/value/calendar?postDate=2018-04-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522512000 AND 1522598399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522598400 AND 1522684799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522684800 AND 1522771199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522771200 AND 1522857599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522857600 AND 1522943999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1522944000 AND 1523030399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523030400 AND 1523116799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523116800 AND 1523203199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523203200 AND 1523289599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523289600 AND 1523375999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523376000 AND 1523462399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523462400 AND 1523548799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523548800 AND 1523635199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523635200 AND 1523721599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523721600 AND 1523807999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523808000 AND 1523894399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523894400 AND 1523980799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1523980800 AND 1524067199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524067200 AND 1524153599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524153600 AND 1524239999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524240000 AND 1524326399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524326400 AND 1524412799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524412800 AND 1524499199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524499200 AND 1524585599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524585600 AND 1524671999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524672000 AND 1524758399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524758400 AND 1524844799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524844800 AND 1524931199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1524931200 AND 1525017599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525017600 AND 1525103999 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:42:18+08:00 ] ::1 /pg/index.php/value/calendar?postDate=2018-05-01
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525104000 AND 1525190399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525190400 AND 1525276799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525276800 AND 1525363199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525363200 AND 1525449599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525449600 AND 1525535999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525536000 AND 1525622399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525622400 AND 1525708799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525708800 AND 1525795199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525795200 AND 1525881599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525881600 AND 1525967999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1525968000 AND 1526054399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526054400 AND 1526140799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526140800 AND 1526227199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526227200 AND 1526313599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526313600 AND 1526399999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400000 AND 1526486399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526486400 AND 1526572799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526572800 AND 1526659199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526659200 AND 1526745599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526745600 AND 1526831999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526832000 AND 1526918399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526918400 AND 1527004799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527004800 AND 1527091199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527091200 AND 1527177599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527177600 AND 1527263999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527264000 AND 1527350399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527350400 AND 1527436799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527436800 AND 1527523199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527523200 AND 1527609599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527609600 AND 1527695999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1527696000 AND 1527782399 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:46:42+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+NOTIC: [8] Undefined index: postDate F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN -28800 AND 57599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 57600 AND 143999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 144000 AND 230399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 230400 AND 316799 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 316800 AND 403199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 403200 AND 489599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 489600 AND 575999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 576000 AND 662399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 662400 AND 748799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 748800 AND 835199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 835200 AND 921599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 921600 AND 1007999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1008000 AND 1094399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1094400 AND 1180799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1180800 AND 1267199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1267200 AND 1353599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1353600 AND 1439999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1440000 AND 1526399 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400 AND 1612799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1612800 AND 1699199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1699200 AND 1785599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1785600 AND 1871999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1872000 AND 1958399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1958400 AND 2044799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2044800 AND 2131199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2131200 AND 2217599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2217600 AND 2303999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2304000 AND 2390399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2390400 AND 2476799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2476800 AND 2563199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2563200 AND 2649599 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-07T17:47:28+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+NOTIC: [8] Undefined index: postDate F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN -28800 AND 57599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 57600 AND 143999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 144000 AND 230399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 230400 AND 316799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 316800 AND 403199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 403200 AND 489599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 489600 AND 575999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 576000 AND 662399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 662400 AND 748799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 748800 AND 835199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 835200 AND 921599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 921600 AND 1007999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1008000 AND 1094399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1094400 AND 1180799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1180800 AND 1267199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1267200 AND 1353599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1353600 AND 1439999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1440000 AND 1526399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400 AND 1612799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1612800 AND 1699199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1699200 AND 1785599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1785600 AND 1871999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1872000 AND 1958399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1958400 AND 2044799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2044800 AND 2131199 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2131200 AND 2217599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2217600 AND 2303999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2304000 AND 2390399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2390400 AND 2476799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2476800 AND 2563199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2563200 AND 2649599 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:47:57+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+NOTIC: [8] Undefined index: postDate F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN -28800 AND 57599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 57600 AND 143999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 144000 AND 230399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 230400 AND 316799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 316800 AND 403199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 403200 AND 489599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 489600 AND 575999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 576000 AND 662399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 662400 AND 748799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 748800 AND 835199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 835200 AND 921599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 921600 AND 1007999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1008000 AND 1094399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1094400 AND 1180799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1180800 AND 1267199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1267200 AND 1353599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1353600 AND 1439999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1440000 AND 1526399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400 AND 1612799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1612800 AND 1699199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1699200 AND 1785599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1785600 AND 1871999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1872000 AND 1958399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1958400 AND 2044799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2044800 AND 2131199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2131200 AND 2217599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2217600 AND 2303999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2304000 AND 2390399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2390400 AND 2476799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2476800 AND 2563199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2563200 AND 2649599 ORDER BY time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T17:48:01+08:00 ] ::1 /pg/index.php/value/calendar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: devid F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 174 行.
+NOTIC: [8] Undefined index: postDate F:\Apache24\htdocs\pg\Home\Controller\ValueController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN -28800 AND 57599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 57600 AND 143999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 144000 AND 230399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 230400 AND 316799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 316800 AND 403199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 403200 AND 489599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 489600 AND 575999 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 576000 AND 662399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 662400 AND 748799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 748800 AND 835199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 835200 AND 921599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 921600 AND 1007999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1008000 AND 1094399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1094400 AND 1180799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1180800 AND 1267199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1267200 AND 1353599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1353600 AND 1439999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1440000 AND 1526399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1526400 AND 1612799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1612800 AND 1699199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1699200 AND 1785599 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1785600 AND 1871999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1872000 AND 1958399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 1958400 AND 2044799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2044800 AND 2131199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2131200 AND 2217599 ORDER BY time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2217600 AND 2303999 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2304000 AND 2390399 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2390400 AND 2476799 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2476800 AND 2563199 ORDER BY time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `access` WHERE `devid` = null AND `time` BETWEEN 2563200 AND 2649599 ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-07T18:01:08+08:00 ] ::1 /pg/index.php/value/calendar?devid=127&postDate=2018-05-01
+ERR: syntax error, unexpected '$currdate' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2018-06-07T18:01:23+08:00 ] ::1 /pg/index.php/value/calendar?devid=127&postDate=2018-05-01
+ERR: syntax error, unexpected '$currdate' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+

@@ -1,0 +1,3 @@
+[ 2018-05-22T15:46:01+08:00 ] ::1 /pg/index.php/devselect/select
+ERR: syntax error, unexpected 'var' (T_VAR)
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主控设备</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.min.css">
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css">
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.07">
+</head>
+<body>
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">
+
+            <div class="weui-btn-area">
+                <button class="weui-btn weui-btn_primary" type="submit" onclick="jump()">添加</button>
+            </div>
+            <div class="weui-panel weui-panel_access">
+                <div class="weui-panel__bd">
+                    <%foreach $devSelect as $value%>
+                    <a href="<%$smarty.const.__APP__%>/add/reviseTime?id=<%$value['id']%>&uptime=<%$value['uptime']%>" class="weui-media-box weui-media-box_appmsg">
+                        <div class="weui-media-box__hd">
+                            <img  class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/shuibiaoicon.png" alt="" id="flag_img">
+                        </div>
+                        <div class="weui-media-box__bd">
+                            <h4 class="weui-media-box__title">
+                                id: <%$value['id']%>
+                                <span class="weui-media-box__title-after">棚 <%$value['shed']%></span>
+                            </h4>
+                            <p class="weui-media-box__desc" id="uptime">时间 <%$value['uptime']%></p>
+                        </div>
+                    </a>
+                    <%/foreach%>
+
+
+
+                </div>
+            </div>
+            <div class="afterLine" style="height: 90px">
+
+
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="weui-tabbar">
+    <a href="<%$smarty.const.__APP__%>/devselect/select" class="weui-tabbar__item ">
+
+        <div class="weui-tabbar__icon">
+            <img src="<%$smarty.const.IMG_URL%>/icon_nav_button.png" alt="">
+        </div>
+        <p class="weui-tabbar__label">首页</p>
+    </a>
+    <a href="<%$smarty.const.__APP__%>/add/deviceTab" class="weui-tabbar__item weui-bar__item--on">
+        <div class="weui-tabbar__icon">
+            <img src="<%$smarty.const.IMG_URL%>/icon_nav_msg.png" alt="">
+        </div>
+        <p class="weui-tabbar__label">设备</p>
+    </a>
+    <a href="<%$smarty.const.__APP__%>/acadd/acTab" class="weui-tabbar__item">
+        <div class="weui-tabbar__icon">
+            <img src="<%$smarty.const.IMG_URL%>/icon_nav_article.png" alt="">
+        </div>
+        <p class="weui-tabbar__label">温度</p>
+    </a>
+    <a href="<%$smarty.const.__APP__%>/acadd/mineTab" class="weui-tabbar__item">
+        <div class="weui-tabbar__icon">
+            <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
+        </div>
+        <p class="weui-tabbar__label">我的</p>
+    </a>
+</div>
+
+</body>
+<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
+<script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
+<script src="<%$smarty.const.AJS_URL%>fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+        var time = document.getElementById("uptime").value;
+        console.log(time)
+
+    });
+
+    var ret = '<%$ret%>';
+    if (ret=="20000003"){
+        $.toptip('暂无查询数据');
+    }
+    function jump() {
+        window.location.href='bdadd.html';
+    }
+
+
+</script>
+</html>

@@ -1,0 +1,21 @@
+[ 2018-06-04T13:45:10+08:00 ] ::1 /pg/index.php/add/reviseTime?id=1&uptime=0010
+ERR: syntax error, unexpected '}', expecting '('
+
+[ 2018-06-04T14:12:08+08:00 ] ::1 /pg/index.php/add/reviseTime?id=1&uptime=0010
+ERR: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+
+[ 2018-06-04T14:12:27+08:00 ] ::1 /pg/index.php/add/reviseTime?id=1&uptime=0010
+ERR: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+
+[ 2018-06-04T14:12:55+08:00 ] ::1 /pg/index.php/add/reviseTime?id=1&uptime=0010
+ERR: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+
+[ 2018-06-04T14:12:58+08:00 ] ::1 /pg/index.php/add/reviseTime?id=1&uptime=0010
+ERR: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+
+[ 2018-06-04T17:13:33+08:00 ] ::1 /pg/index.php/devselect/select
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+
+[ 2018-06-04T17:47:51+08:00 ] ::1 /pg/index.php/devselect/select
+ERR: SQLSTATE[HY000] [1049] Unknown database 'base1'
+

@@ -1,0 +1,3 @@
+[ 2018-05-23T14:37:21+08:00 ] ::1 /pg/index.php/devselect/select
+ERR: syntax error, unexpected ''devid asc'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+

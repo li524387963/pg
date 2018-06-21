@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<title>注册</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.min.css">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.04">
+  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css">
+</head>
+<body>
+<div class="header">
+
+<br><br>
+<div class="container">
+
+<!--<div class="col-lg-2">-->
+	<!--<div class="panel panel-primary"> -->
+	    <!--<div class="panel-heading"></div> -->
+	    <!--<div class="panel-body"><h1>用户注册</h1></div> -->
+	    <!--<div class="panel-footer"></div> -->
+	<!--</div>-->
+<!--</div>-->
+<!--<br><br><br>-->
+  <!--<form class="form-horizontal" name="f1"  onsubmit="return emp()" id="form1"   action=""   method="post" >-->
+    <!--<fieldset>   -->
+    <!---->
+    <!--<div class="control-group" >-->
+      <!--<label class="control-label" for="susername">用户名:</label>-->
+      <!--<div class="controls">-->
+      <!--<input name="name"  id="name_id"  type="text">-->
+      <!--<p class="help-block" id="ts5">请输入您想要注册的用户名</p>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="control-group" >-->
+      <!--<label class="control-label" for="password">密码：</label>-->
+      <!--<div class="controls">-->
+      <!--<input name="pwd" class="inp" id='pawd'  type="password">-->
+      <!--<p class="help-block" id="pw">密码可以由英文字母、数字、符号组成，长度6-20位</p>-->
+      <!--</div>-->
+    <!--</div>-->
+
+     <!--<input type='hidden' name='aip' value="pc">-->
+
+  <!--</fieldset>-->
+  <!--<div class="form-actions">-->
+    <!--<button type="submit" class="btn btn-primary">注册</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+    <!--<a class="btn btn-default" href="<%$smarty.const.__CONTROLLER__%>/login">登录</a>-->
+  <!--</div>-->
+  <!--</form>-->
+
+  <div class="demos-title" >
+   注册
+  </div>
+  <form class="form-horizontal" name="f1"  onsubmit="return emp()" id="form1"   action=""   method="post" >
+    <div class="weui-cells weui-cells_form" >
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">手机号</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="tel" id="name_id" name="name" placeholder="请输入未注册的手机号">
+        </div>
+
+      </div>
+      <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">密码</label></div>
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="password" id="pwd" name="pwd" placeholder="请输入密码">
+
+          <input type='hidden' name='aip' value="pc">
+        </div>
+
+      </div>
+
+    </div>
+    <div class="weui-cells__tips">密码可以由英文字母、数字、符号组成，长度6-20位</div>
+    <div class="weui-btn-area">
+      <button class="weui-btn weui-btn_primary" type="submit">注册</button>
+    </div>
+    <div class="weui-btn-area">
+      <a class="weui-btn weui-btn_plain-primary" href="<%$smarty.const.__CONTROLLER__%>/login" >返回</a>
+    </div>
+  </form>
+
+
+
+ </div>
+</div>
+</body>
+</html>
+
+<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
+<script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
+<script src="<%$smarty.const.AJS_URL%>fastclick.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+    var ret = "<%$ret%>";
+    var name = "<%$name%>";
+    document.getElementById("name_id").value=name;
+    if(ret=="10000109"){
+        $.toptip('用户名重复注册');
+    }
+    
+})
+
+    function emp(){
+        var user=document.getElementById("name_id")
+
+        var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+
+        if (!myreg.test(user.value)){
+            $.toptip('请输入正确的手机号');
+            return false;
+        }
+
+
+        var pawd=document.getElementById("pwd")
+        if(pawd.value==''){
+            $.toptip('密码不能为空！');
+        return false;
+        }
+        if(pawd.value.length<6){
+            $.toptip('密码至少为6位，请重新输入！');
+        return false;
+        }
+
+        
+
+
+        
+
+        return true;
+   }
+
+    
+    </script>
+
+
+
+
+
+
+
