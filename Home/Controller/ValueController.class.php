@@ -220,39 +220,90 @@ class ValueController extends HomeController {
         $date = $_GET["date"];
         $postArr = array();
         $postArr['devid'] = $devid;
-        $startStr = $date . '00:00:00';
-        $endStr = $date .  '23:59:59';
+        $endDay = date($date);
+        $firstDay = date('Y-m-d', strtotime("$endDay -4 day"));
+        $days = (strtotime($endDay)-strtotime($firstDay))/86400+1;//天数
+        $startStr = $firstDay . '00:00:00';
+        $endStr = $firstDay .  '23:59:59';
         $startTime = strtotime($startStr);
         $endTime = strtotime($endStr);
-        $postArr['time'] = array('between',array($startTime,$endTime));
-        $accSelect = M('access')->where($postArr)->order('time asc')->select();
-        $todayData = array_slice($accSelect,0,8);
         $dateArr = array();
         $temp1Arr = array();
         $temp2Arr = array();
-        $dataCount= count($todayData);
-        if($dataCount<8){
-            for($i=0;$i<$dataCount;$i++){
-                $time=($accSelect[$i][time]);
-                $date=date('H:i',$time);
-                array_push($dateArr,$date);
-                array_push($temp1Arr,$todayData[$i][temp1]);
-                array_push($temp2Arr,$todayData[$i][temp2]);
-            }
-        }else{
-            for($i=0;$i<8;$i++){
-                  $time=($accSelect[$i][time]);
-                  $date=date('H:i',$time);
-                  array_push($dateArr,$date);
-                  array_push($temp1Arr,$todayData[$i][temp1]);
-                  array_push($temp2Arr,$todayData[$i][temp2]);
-            }
+        for($i=0;$i<$days;$i++){
+              $start = $startTime+86400*$i;
+              $end = $endTime+86400*$i;
+              $postArr['time']=array('between',array($start,$end));
+              if($selectSql=M('access')->where($postArr)->order('time desc')->select()){
+                 $todayData = array_slice($selectSql,0,8);
+                 $dataCount= count($todayData);
+                 if($dataCount<8){
+                     for($j=0;$j<$dataCount;$j++){
+                         $time=($selectSql[$j][time]);
+                         $date=date('m-d H:i',$time);
+                       //  $date=date('m-d ',$time) . $j*3 . ':00';
+                         //var_dump($time);
+                         array_push($dateArr,$date);
+                         array_push($temp1Arr,$todayData[$j][temp1]);
+                         array_push($temp2Arr,$todayData[$j][temp2]);
+                     }
+                 }else{
+                     for($j=0;$j<8;$j++){
+                           $time=($selectSql[$j][time]);
+                           $date=date('m-d H:i',$time);
+                         // $date=date('m-d ',$time) . $j*3 . ':00';
 
-        }
+                           array_push($dateArr,$date);
+                           array_push($temp1Arr,$todayData[$j][temp1]);
+                           array_push($temp2Arr,$todayData[$j][temp2]);
+                     }
+                 }
+              }
+        };
 
-        $this->assign('temp1Arr',json_encode($temp1Arr));
-        $this->assign('temp2Arr',json_encode($temp2Arr));
-        $this->assign('dateArr',json_encode($dateArr));
+
+
+
+
+//        $startStr = $date . '00:00:00';
+//        $endStr = $date .  '23:59:59';
+//        $startTime = strtotime($startStr);
+//        $endTime = strtotime($endStr);
+//        $postArr['time'] = array('between',array($startTime,$endTime));
+//        $accSelect = M('access')->where($postArr)->order('time asc')->select();
+//        $todayData = array_slice($accSelect,0,8);
+//        $dateArr = array();
+//        $temp1Arr = array();
+//        $temp2Arr = array();
+//        $dataCount= count($todayData);
+//        if($dataCount<8){
+//            for($i=0;$i<$dataCount;$i++){
+//                $time=($accSelect[$i][time]);
+//                $date=date('H:i',$time);
+//                array_push($dateArr,$date);
+//                array_push($temp1Arr,$todayData[$i][temp1]);
+//                array_push($temp2Arr,$todayData[$i][temp2]);
+//            }
+//        }else{
+//            for($i=0;$i<8;$i++){
+//                  $time=($accSelect[$i][time]);
+//                  $date=date('H:i',$time);
+//                  array_push($dateArr,$date);
+//                  array_push($temp1Arr,$todayData[$i][temp1]);
+//                  array_push($temp2Arr,$todayData[$i][temp2]);
+//            }
+//
+//        }
+
+
+
+
+
+
+
+        $this->assign('temp1Arr',json_encode(array_reverse($temp1Arr)));
+        $this->assign('temp2Arr',json_encode(array_reverse($temp2Arr)));
+        $this->assign('dateArr',json_encode(array_reverse($dateArr)));
 
         $this->display();
 
@@ -262,6 +313,7 @@ class ValueController extends HomeController {
         $date = $_GET["date"];
         $postArr = array();
         $postArr['devid'] = $devid;
+
         $firstDay = date($date . '-01');
         $endDay = date('Y-m-d', strtotime("$firstDay +1 month -1 day"));
         $days = (strtotime($endDay)-strtotime($firstDay))/86400+1;//天数
@@ -277,12 +329,14 @@ class ValueController extends HomeController {
               $end = $endTime+86400*$i;
               $postArr['time']=array('between',array($start,$end));
               if($selectSql=M('access')->where($postArr)->order('time asc')->select()){
+
                  $todayData = array_slice($selectSql,0,8);
                  $dataCount= count($todayData);
                  if($dataCount<8){
                      for($j=0;$j<$dataCount;$j++){
                          $time=($selectSql[$j][time]);
-                         $date=date('m-d ',$time) . $j*3 . ':00';
+                         $date=date('m-d H:i',$time);
+                       //  $date=date('m-d ',$time) . $j*3 . ':00';
                          //var_dump($time);
                          array_push($dateArr,$date);
                          array_push($temp1Arr,$todayData[$j][temp1]);
@@ -291,8 +345,8 @@ class ValueController extends HomeController {
                  }else{
                      for($j=0;$j<8;$j++){
                            $time=($selectSql[$j][time]);
-                          // $date=date('m-d H:i',$time);
-                          $date=date('m-d ',$time) . $j*3 . ':00';
+                           $date=date('m-d H:i',$time);
+                         // $date=date('m-d ',$time) . $j*3 . ':00';
 
                            array_push($dateArr,$date);
                            array_push($temp1Arr,$todayData[$j][temp1]);

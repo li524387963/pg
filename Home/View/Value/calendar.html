@@ -70,7 +70,7 @@
             var ret = '<%$data%>';
             var json = JSON.parse(ret);
 
-            console.log(ret,json);
+          //  console.log(ret,json);
             pickerEvent.setPriceArr(json);
             pickerEvent.Init(this);
         }
@@ -81,7 +81,7 @@
             var C1=window.location.href.split("?")[1];
              devid= C1.split("=")[1];
 
-            console.log(devid);
+          //  console.log(devid);
             var devStr = '设备号: '+devid
 
              document.getElementById("title").innerHTML=devStr;

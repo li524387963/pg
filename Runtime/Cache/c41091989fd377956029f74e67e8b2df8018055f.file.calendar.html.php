@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-21 14:55:40
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-22 14:08:52
          compiled from "F:/Apache24/htdocs/pg/Home/View\Value\calendar.html" */ ?>
 <?php /*%%SmartyHeaderCode:2083267205b22335dd025c0-32686912%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c41091989fd377956029f74e67e8b2df8018055f' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Value\\calendar.html',
-      1 => 1529564127,
+      1 => 1529637626,
       2 => 'file',
     ),
   ),
@@ -110,7 +110,7 @@ zlDate.js?v=01.01.22"></script>
 ';
             var json = JSON.parse(ret);
 
-            console.log(ret,json);
+          //  console.log(ret,json);
             pickerEvent.setPriceArr(json);
             pickerEvent.Init(this);
         }
@@ -121,7 +121,7 @@ zlDate.js?v=01.01.22"></script>
             var C1=window.location.href.split("?")[1];
              devid= C1.split("=")[1];
 
-            console.log(devid);
+          //  console.log(devid);
             var devStr = '设备号: '+devid
 
              document.getElementById("title").innerHTML=devStr;

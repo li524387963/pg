@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-20 11:16:37
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-22 10:52:53
          compiled from "F:/Apache24/htdocs/pg/Home/View\Value\todayValue.html" */ ?>
 <?php /*%%SmartyHeaderCode:7393921475b22335f5cb0b9-56874314%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '945ebcb7f02767270452f265373ee0e33f7deda9' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Value\\todayValue.html',
-      1 => 1529464590,
+      1 => 1529635954,
       2 => 'file',
     ),
   ),
@@ -138,8 +138,25 @@ jquery-3.2.1.min.js"></script>
             xAxis:  {
                 type: 'category',
                 boundaryGap: false,
-                data:['00:00','03:00','06:00','09:00','12:00','15:00','18:00','21:00'],
+                data:date,
             },
+            dataZoom: [{
+                type: 'inside',
+                start: 0,
+                end: 10
+            }, {
+                start: 0,
+                end: 10,
+                handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+                handleSize: '80%',
+                handleStyle: {
+                    color: '#fff',
+                    shadowBlur: 3,
+                    shadowColor: 'rgba(0, 0, 0, 0.6)',
+                    shadowOffsetX: 2,
+                    shadowOffsetY: 2
+                }
+            }],
             yAxis: {
                 type: 'value',
                 axisLabel: {
