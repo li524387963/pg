@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-14 17:29:03
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-29 11:27:39
          compiled from "F:/Apache24/htdocs/pg/Home/View\Acadd\acTab.html" */ ?>
-<?php /*%%SmartyHeaderCode:19623714225b22355fbbfaf6-68718878%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1525319815b35a72b8c2c37-51740895%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '24c7b08f5c9faedc405637ca90d0629199953faa' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Acadd\\acTab.html',
-      1 => 1527494665,
+      1 => 1530165906,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19623714225b22355fbbfaf6-68718878',
+  'nocache_hash' => '1525319815b35a72b8c2c37-51740895',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5b22355fe53e0',
+  'unifunc' => 'content_5b35a72b9c87f',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b22355fe53e0')) {function content_5b22355fe53e0($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5b35a72b9c87f')) {function content_5b35a72b9c87f($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -179,7 +179,7 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
                 <p class="weui-tabbar__label">温度</p>
             </a>
             <a href="<?php echo @__APP__;?>
-/acadd/mineTab" class="weui-tabbar__item">
+/Mine/mineTab" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <img src="<?php echo @IMG_URL;?>
 /icon_nav_cell.png" alt="">

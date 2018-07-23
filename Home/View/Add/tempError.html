@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>温度异常</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+    <title>日历</title>
+    <link href="<%$smarty.const.WEUI_URL%>/datepicker.css?v=01.01.38" rel="stylesheet"/>
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.min.css">
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css">
+    <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.07">
+</head>
+<body>
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">
+            <form class="form-horizontal" name="f1"      action=""   method="post" >
+                <div class="weui-cells weui-cells_form" >
+
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd"><label for="date" class="weui-label">日期</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" id="date" type="text" name="time" placeholder="请输入日期" >
+                        </div>
+                    </div>
+                    <div class="weui-cell">
+                        <button class="weui-btn weui-btn_primary" type="submit">查询</button>
+                    </div>
+                </div>
+                <div class="container">
+                    <%if !empty($selectSql)%>
+
+                    <div class="weui-panel weui-panel_access">
+                        <div class="weui-panel__bd">
+                            <%foreach $selectSql as $v%>
+                            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+                                <div class="weui-media-box__hd">
+                                    <!--<img class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/warn.png" alt="">-->
+                                    <div class="weui-media-box__hd">
+
+                                        <img  class="weui-media-box__thumb" src="<%$smarty.const.IMG_URL%>/warn.png" alt="" id="flag_img1">
+
+                                    </div>
+                                </div>
+                                <div class="weui-media-box__bd">
+                                    <h4 class="weui-media-box__title">
+                                        设备 <%$v.devid%>  温度 <%$v.temp1%>
+
+                                    </h4>
+                                    <!--{$vo.start_time|date="Y-m-d H:i:s",###}   <%$v.cur_time%>-->
+                                    <!--date("Y-m-d ",$val['数据库中时间字段'])-->
+                                    <p class="weui-media-box__desc">时间  <%date("Y-m-d H:i:s",$v.time)%></p>
+
+                                </div>
+                            </a>
+                            <%/foreach%>
+
+                        </div>
+
+                    </div>
+                    <%/if%>
+                    <div class="afterLine" style="height: 90px">
+
+                    </div>
+                </div>
+
+
+            </form>
+
+
+
+        </div>
+    </div>
+    <div class="weui-tabbar">
+        <a href="<%$smarty.const.__APP__%>/devselect/select" class="weui-tabbar__item ">
+
+            <div class="weui-tabbar__icon">
+                <img src="<%$smarty.const.IMG_URL%>/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="<%$smarty.const.__APP__%>/add/deviceTab" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <img src="<%$smarty.const.IMG_URL%>/icon_nav_msg.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">设备</p>
+        </a>
+        <a href="<%$smarty.const.__APP__%>/acadd/acTab" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="<%$smarty.const.IMG_URL%>/icon_nav_article.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">温度</p>
+        </a>
+        <a href="<%$smarty.const.__APP__%>/mine/mineTab" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+</body>
+<script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
+<script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
+<script src="<%$smarty.const.AJS_URL%>fastclick.js"></script>
+<script>
+    $("#date").calendar({
+        onChange: function (p, values, displayValues) {
+            console.log(p,values, displayValues);
+        }
+    })
+    var startTime = "<%$startTime%>";
+    document.getElementById("date").value=startTime;
+    </script>
+</html>

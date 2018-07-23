@@ -1,0 +1,6 @@
+[ 2018-07-03T14:34:35+08:00 ] ::1 /pg/index.php/acadd/acTab
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2018-07-03T16:27:13+08:00 ] ::1 /pg/index.php/Mine/resetpwd
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'
+

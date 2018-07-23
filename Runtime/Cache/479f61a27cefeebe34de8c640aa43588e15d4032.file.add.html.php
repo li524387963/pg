@@ -1,13 +1,42 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.6, created on 2018-07-09 10:00:59
+         compiled from "F:/Apache24/htdocs/pg/Home/View\Add\add.html" */ ?>
+<?php /*%%SmartyHeaderCode:18972194685b42c1db86cc50-74157661%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '479f61a27cefeebe34de8c640aa43588e15d4032' => 
+    array (
+      0 => 'F:/Apache24/htdocs/pg/Home/View\\Add\\add.html',
+      1 => 1530167525,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '18972194685b42c1db86cc50-74157661',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'ret' => 0,
+    'device' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5b42c1db95b10',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5b42c1db95b10')) {function content_5b42c1db95b10($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>add</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/weui.min.css">
-  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/jquery-weui.css">
-  <link rel="stylesheet" href="<%$smarty.const.WEUI_URL%>/demos.css?v=01.01.07">
+  <link rel="stylesheet" href="<?php echo @WEUI_URL;?>
+/weui.min.css">
+  <link rel="stylesheet" href="<?php echo @WEUI_URL;?>
+/jquery-weui.css">
+  <link rel="stylesheet" href="<?php echo @WEUI_URL;?>
+/demos.css?v=01.01.07">
 </head>
 <body>
 <div class="weui-tab">
@@ -81,43 +110,56 @@
   </div>
 </div>
 <div class="weui-tabbar">
-    <a href="<%$smarty.const.__APP__%>/devselect/select" class="weui-tabbar__item ">
+    <a href="<?php echo @__APP__;?>
+/devselect/select" class="weui-tabbar__item ">
 
       <div class="weui-tabbar__icon">
-        <img src="<%$smarty.const.IMG_URL%>/icon_nav_button.png" alt="">
+        <img src="<?php echo @IMG_URL;?>
+/icon_nav_button.png" alt="">
       </div>
       <p class="weui-tabbar__label">首页</p>
     </a>
-    <a href="<%$smarty.const.__APP__%>/add/deviceTab" class="weui-tabbar__item weui-bar__item--on">
+    <a href="<?php echo @__APP__;?>
+/add/deviceTab" class="weui-tabbar__item weui-bar__item--on">
       <div class="weui-tabbar__icon">
-        <img src="<%$smarty.const.IMG_URL%>/icon_nav_msg.png" alt="">
+        <img src="<?php echo @IMG_URL;?>
+/icon_nav_msg.png" alt="">
       </div>
       <p class="weui-tabbar__label">设备</p>
     </a>
-    <a href="<%$smarty.const.__APP__%>/acadd/acTab" class="weui-tabbar__item">
+    <a href="<?php echo @__APP__;?>
+/acadd/acTab" class="weui-tabbar__item">
       <div class="weui-tabbar__icon">
-        <img src="<%$smarty.const.IMG_URL%>/icon_nav_article.png" alt="">
+        <img src="<?php echo @IMG_URL;?>
+/icon_nav_article.png" alt="">
       </div>
       <p class="weui-tabbar__label">温度</p>
     </a>
-    <a href="<%$smarty.const.__APP__%>/mine/mineTab" class="weui-tabbar__item">
+    <a href="<?php echo @__APP__;?>
+/mine/mineTab" class="weui-tabbar__item">
       <div class="weui-tabbar__icon">
-        <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
+        <img src="<?php echo @IMG_URL;?>
+/icon_nav_cell.png" alt="">
       </div>
       <p class="weui-tabbar__label">我的</p>
     </a>
   </div>
 </div>
-  <script src="<%$smarty.const.AJS_URL%>jquery-2.1.4.js"></script>
-  <script src="<%$smarty.const.AJS_URL%>jquery-weui.js"></script>
-  <script src="<%$smarty.const.AJS_URL%>fastclick.js"></script>
+  <script src="<?php echo @AJS_URL;?>
+jquery-2.1.4.js"></script>
+  <script src="<?php echo @AJS_URL;?>
+jquery-weui.js"></script>
+  <script src="<?php echo @AJS_URL;?>
+fastclick.js"></script>
   <script>
       $(function() {
           FastClick.attach(document.body);
       });
       $(document).ready(function() {
-          var ret = "<%$ret%>";
-          var device = "<%$device%>";
+          var ret = "<?php echo $_smarty_tpl->tpl_vars['ret']->value;?>
+";
+          var device = "<?php echo $_smarty_tpl->tpl_vars['device']->value;?>
+";
 
          // document.getElementById("devid").value=device;
           if(ret=="10000001"){
@@ -134,3 +176,4 @@
   </script>
 </body>
 </html>
+<?php }} ?>

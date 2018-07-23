@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-22 14:08:52
+<?php /* Smarty version Smarty-3.1.6, created on 2018-07-04 15:10:45
          compiled from "F:/Apache24/htdocs/pg/Home/View\Value\calendar.html" */ ?>
-<?php /*%%SmartyHeaderCode:2083267205b22335dd025c0-32686912%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13499650295b3c72f586add3-93095288%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c41091989fd377956029f74e67e8b2df8018055f' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Value\\calendar.html',
-      1 => 1529637626,
+      1 => 1530167525,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2083267205b22335dd025c0-32686912',
+  'nocache_hash' => '13499650295b3c72f586add3-93095288',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5b22335dd584d',
   'variables' => 
   array (
     'data' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5b3c72f590b08',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b22335dd584d')) {function content_5b22335dd584d($_smarty_tpl) {?><!DOCTYPE html >
+<?php if ($_valid && !is_callable('content_5b3c72f590b08')) {function content_5b3c72f590b08($_smarty_tpl) {?><!DOCTYPE html >
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -87,7 +87,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <p class="weui-tabbar__label">温度</p>
             </a>
             <a href="<?php echo @__APP__;?>
-/acadd/mineTab" class="weui-tabbar__item">
+/mine/mineTab" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <img src="<?php echo @IMG_URL;?>
 /icon_nav_cell.png" alt="">
@@ -129,7 +129,7 @@ zlDate.js?v=01.01.22"></script>
 
         });
         function changePrice(date,price ) {
-            console.log(date,price,devid);
+           // console.log(date,price,devid);
             if (price!=-9999){
                 window.location.href = '<?php echo @__APP__;?>
 /Value/todayValue?devid='+devid+'&date='+date;

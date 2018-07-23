@@ -31,7 +31,7 @@ return array(
     ),
 
     'DB_TYPE'              =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '124.207.250.67', // 服务器地址124.207.250.67
+    'DB_HOST'               =>  'localhost', // 服务器地址124.207.250.67
     'DB_NAME'               =>  'base',          // 数据库名
     'DB_USER'               =>  'root',      // 用户名
     'DB_PWD'                =>  'dj919',          // 密码

@@ -250,6 +250,7 @@ class AddController extends HomeController {
 
 	    		if($_POST['rid']){
 		    		$postArr['rid']=
+
 			    		intval($_POST['rid']);	
 	    		}
 
@@ -300,8 +301,6 @@ class AddController extends HomeController {
 		    			 $this->assign('ret','11000001');
 		    			 $this->display();
 		    			 exit;
-
-
 	    			}
 
 	    			if($_POST['state'] && !is_numeric($_POST['state']) ){
@@ -309,7 +308,6 @@ class AddController extends HomeController {
 		    			 $this->assign('ret','11000002');
 		    			 $this->display();
 		    			 exit;
-
 	    			}
 
 	    			if($_POST['s_count'] && !is_numeric($_POST['s_count']) ){
@@ -385,6 +383,7 @@ class AddController extends HomeController {
     			
     		}
     		 $this->assign('ret','10000007');
+
     	}
 
         $this->display();
@@ -405,7 +404,6 @@ class AddController extends HomeController {
 
         $postArr=array();//声明一个数组
 
-				
 	    	if($_POST['devid']){
 	    		$postArr['devid']=intval($_POST['devid']);
 	    	}
@@ -528,4 +526,78 @@ class AddController extends HomeController {
         }
      $this->display();
     }
+    public function tempError(){
+      if($_POST){
+         $date =  $_POST['time'];
+      }else{
+          $date = date("Y/m/d");
+
+      }
+        $time = $date .'00:00:00';
+//        $date = date("Y/m/d");
+        $this->assign('startTime',$date);
+        $start_time = strtotime($time);
+        //$start_time = date("Y-m-d 0:0:0", strtotime(time));
+    //	echo $start_time;
+        //$end_time = $start_time+86400;
+
+        $end_time = strtotime($time)+86399;
+        $temp = 35;
+        if($selectSql=M('access')->where('temp1 >= '.$temp.' and time >= '.$start_time.' and time <= '.$end_time)->order('id desc')->select()){
+           $re = arr_uniq($selectSql,'devid');
+           $this->assign('selectSql',$re);
+          // var_dump(count($re));
+           for($i=0;$i<count($re);$i++){
+                $temp = array();
+                $temp=array(
+                'devid'=>$re[$i]['devid'],
+                'temp1' =>$re[$i]['temp1'],
+                'time' =>$re[$i]['time'],
+                'cur_time' =>$re[$i]['cur_time'],
+
+                );
+
+                $tempfind=M('temperror')->select();
+                $existTemp= multidimensional_search($tempfind, $temp);
+                  if($existTemp!=false){
+
+                  }else{
+                  $tempAdd=M('temperror')->add($temp);
+                  }
+
+           }
+
+
+        }
+
+
+        $this->display();
+    }
+
+}
+function arr_uniq($arr,$key)
+    {
+        $key_arr = [];
+        foreach ($arr as $k => $v) {
+            if (in_array($v[$key],$key_arr)) {
+                unset($arr[$k]);
+            } else {
+                $key_arr[] = $v[$key];
+            }
+        }
+        sort($arr);
+        return $arr;
+    }
+function multidimensional_search($parents, $searched) {
+        if (empty($searched) || empty($parents)) {
+        return false;
+        }
+        foreach ($parents as $key => $value) {
+        $exists = true;
+        foreach ($searched as $skey => $svalue) {
+        $exists = ($exists && IsSet($parents[$key][$skey]) && $parents[$key][$skey] == $svalue);
+        }
+        if($exists){ return true; }
+        }
+        return false;
 }

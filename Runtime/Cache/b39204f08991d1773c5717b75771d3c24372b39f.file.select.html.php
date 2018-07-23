@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-21 17:48:31
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-28 14:16:12
          compiled from "F:/Apache24/htdocs/pg/Home/View\Devselect\select.html" */ ?>
-<?php /*%%SmartyHeaderCode:19794462905b22356071c560-47044058%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19435227805b347d2c920d40-63237313%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b39204f08991d1773c5717b75771d3c24372b39f' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Devselect\\select.html',
-      1 => 1529573975,
+      1 => 1530165906,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19794462905b22356071c560-47044058',
+  'nocache_hash' => '19435227805b347d2c920d40-63237313',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5b22356082212',
   'variables' => 
   array (
     'devSelect' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ret' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5b347d2cc264f',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b22356082212')) {function content_5b22356082212($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5b347d2cc264f')) {function content_5b347d2cc264f($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en" xmlns:img="http://www.w3.org/1999/html">
 <head>
 	<meta charset="UTF-8">
@@ -147,7 +147,7 @@ $_smarty_tpl->tpl_vars['value']->_loop = true;
                 <p class="weui-tabbar__label">温度</p>
             </a>
             <a href="<?php echo @__APP__;?>
-/acadd/mineTab" class="weui-tabbar__item">
+/Mine/mineTab" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <img src="<?php echo @IMG_URL;?>
 /icon_nav_cell.png" alt="">

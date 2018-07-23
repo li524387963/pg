@@ -1,0 +1,39 @@
+[ 2018-07-09T10:59:22+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '$time' (T_VARIABLE), expecting ';' or '{'
+
+[ 2018-07-09T11:20:49+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'temp' in 'where clause'
+
+[ 2018-07-09T11:21:45+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'temp' in 'where clause'
+
+[ 2018-07-09T14:11:49+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '}'
+
+[ 2018-07-09T14:11:49+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '}'
+
+[ 2018-07-09T14:12:51+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '}'
+
+[ 2018-07-09T14:12:53+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '}'
+
+[ 2018-07-09T14:12:56+08:00 ] ::1 /pg/index.php/add/deviceTab
+ERR: syntax error, unexpected '}'
+
+[ 2018-07-09T14:41:50+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: Call to undefined function Home\Controller\arr_uniq()
+
+[ 2018-07-09T14:42:48+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: Call to undefined function Home\Controller\arr_uniq()
+
+[ 2018-07-09T15:26:30+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'base.temperror' doesn't exist
+
+[ 2018-07-09T15:28:13+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'devid' cannot be null
+
+[ 2018-07-09T16:32:39+08:00 ] ::1 /pg/index.php/add/tempError
+ERR: syntax error, unexpected '}'
+

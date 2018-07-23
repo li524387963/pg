@@ -61,10 +61,11 @@ class ManagerController extends HomeController {
                     echo json_encode(array('UserInfo'=>$jarr));
 				}
 
+
 				$nameArr=array(
 					'name'=>$name,
 					'pwd' =>md5($pwd),
-					);
+				);
 				$userAdd=M('user')->add($nameArr);
 
 				if($userAdd){
@@ -86,7 +87,6 @@ class ManagerController extends HomeController {
 				$pwd   =trim($_POST['pwd']);
 				$name  =trim($_POST['name']);
 				$name  =htmlspecialchars($name);
-
 				$nameArr=array(
 					'name'=>$name,
 					'pwd' =>md5($pwd)
@@ -110,7 +110,7 @@ class ManagerController extends HomeController {
 				$nameArr=array(
 					'name'=>$name,
 					'pwd' =>md5($pwd)
-					);
+				);
 				$userFind=M('user')->where($nameArr)->find();
 				if($userFind){
 					session('name',$userFind['name']);

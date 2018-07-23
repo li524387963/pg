@@ -14,5 +14,6 @@ define('PUBLIC_ROOT_URL','/pg/Home/Public/');
 define('WEUI_URL','/pg/Home/Public/weui');
 define('CON_URL','/pg/Home/Controller/');
 
+
 //引入tp框架的接口文件
 include "./ThinkPHP/ThinkPHP.php";

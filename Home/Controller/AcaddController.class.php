@@ -39,8 +39,8 @@ public function acTab(){
 
 		$this->display();
 	}
-	public function mineTab(){
-	if($_POST){
+	//public function mineTab(){
+	//if($_POST){
 //       session_start();
 //
 //       $_SESSION = array(); //清除SESSION值.
@@ -50,14 +50,14 @@ public function acTab(){
 //         }
 //         session_destroy();  //清除服务器的sesion文件
 
-         $this->assign('ret','10000108');
+      //   $this->assign('ret','10000108');
 
-    }
-
-
-
-    $this->display();
-	}
+//    }
+//
+//
+//
+//    $this->display();
+//	}
     public function add(){
     	//var_dump($_POST);
         if($_POST['aip']=='ios' || $_POST['aip']=='an'){

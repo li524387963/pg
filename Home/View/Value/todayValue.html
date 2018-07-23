@@ -46,7 +46,7 @@
                 </div>
                 <p class="weui-tabbar__label">温度</p>
             </a>
-            <a href="<%$smarty.const.__APP__%>/acadd/mineTab" class="weui-tabbar__item">
+            <a href="<%$smarty.const.__APP__%>/mine/mineTab" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <img src="<%$smarty.const.IMG_URL%>/icon_nav_cell.png" alt="">
                 </div>
@@ -63,9 +63,10 @@
     $(document).ready(function() {
         var C1=window.location.href.split("?")[1];
         var time=C1.split("=")[2];
-        console.log(time);
+       // console.log(time);
         var uptime=  time.substring(5,10);
         document.getElementById("title").innerHTML=uptime;
+
 
 
 
@@ -82,7 +83,7 @@
            min = min2;
        }
 
-        console.log(date,temp1,temp2);
+      //  console.log(date,temp1,temp2);
         var option = {
 
             tooltip: {

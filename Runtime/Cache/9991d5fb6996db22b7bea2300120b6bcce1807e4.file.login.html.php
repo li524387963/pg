@@ -1,30 +1,30 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-19 14:10:13
+<?php /* Smarty version Smarty-3.1.6, created on 2018-07-03 14:37:39
          compiled from "F:/Apache24/htdocs/pg/Home/View\Manager\login.html" */ ?>
-<?php /*%%SmartyHeaderCode:17223650355b289e45aec933-46481856%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19381165805b39d571dc9f99-11019898%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9991d5fb6996db22b7bea2300120b6bcce1807e4' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Manager\\login.html',
-      1 => 1528362224,
+      1 => 1530599361,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17223650355b289e45aec933-46481856',
+  'nocache_hash' => '19381165805b39d571dc9f99-11019898',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5b39d571e5e6b',
   'variables' => 
   array (
     'ret' => 0,
     'name' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5b289e45b3ab4',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b289e45b3ab4')) {function content_5b289e45b3ab4($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5b39d571e5e6b')) {function content_5b39d571e5e6b($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -107,7 +107,7 @@ fastclick.js"></script>
             $.toptip('用户名或密码错误');
         }
         if(ret=="10000104"){
-            $.toptip('注册成功', 'success');
+            $.toptip('登录成功', 'success');
         }
 
 

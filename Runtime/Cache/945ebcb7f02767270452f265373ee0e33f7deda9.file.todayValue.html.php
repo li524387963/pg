@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-22 10:52:53
+<?php /* Smarty version Smarty-3.1.6, created on 2018-07-04 15:31:20
          compiled from "F:/Apache24/htdocs/pg/Home/View\Value\todayValue.html" */ ?>
-<?php /*%%SmartyHeaderCode:7393921475b22335f5cb0b9-56874314%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3192642275b347e6630de55-31492665%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '945ebcb7f02767270452f265373ee0e33f7deda9' => 
     array (
       0 => 'F:/Apache24/htdocs/pg/Home/View\\Value\\todayValue.html',
-      1 => 1529635954,
+      1 => 1530167524,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7393921475b22335f5cb0b9-56874314',
+  'nocache_hash' => '3192642275b347e6630de55-31492665',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5b22335f5f9ec',
+  'unifunc' => 'content_5b347e663aa27',
   'variables' => 
   array (
     'dateArr' => 0,
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b22335f5f9ec')) {function content_5b22335f5f9ec($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5b347e663aa27')) {function content_5b347e663aa27($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -83,7 +83,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <p class="weui-tabbar__label">温度</p>
             </a>
             <a href="<?php echo @__APP__;?>
-/acadd/mineTab" class="weui-tabbar__item">
+/mine/mineTab" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <img src="<?php echo @IMG_URL;?>
 /icon_nav_cell.png" alt="">
@@ -103,9 +103,10 @@ jquery-3.2.1.min.js"></script>
     $(document).ready(function() {
         var C1=window.location.href.split("?")[1];
         var time=C1.split("=")[2];
-        console.log(time);
+       // console.log(time);
         var uptime=  time.substring(5,10);
         document.getElementById("title").innerHTML=uptime;
+
 
 
 
@@ -125,7 +126,7 @@ jquery-3.2.1.min.js"></script>
            min = min2;
        }
 
-        console.log(date,temp1,temp2);
+      //  console.log(date,temp1,temp2);
         var option = {
 
             tooltip: {
